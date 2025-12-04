@@ -1,4 +1,4 @@
-name: PR Agent for NUWM
+ name: PR Agent for NUWM
 
 on:
   pull_request:
