@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Run pr agent on every pull request
     steps:
-      - name: pr-agent-nuwm
+      - name: pr-agent-nuwm 
+    
         uses: EzGrade/Pr-Agent-NUWM@main
         env:
           GIT_APP_ID: ${{ secrets.GIT_APP_ID }}
